@@ -18,7 +18,7 @@ const client = new CosmosClient({ endpoint, key });
 const dbName = 'FreshTracksGpx';
 const containerName = 'GpxItems';
 
-const headers = {
+const headers = { 
   'Content-Type': 'application/json',
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Headers': "Content-Type,Authorization",
